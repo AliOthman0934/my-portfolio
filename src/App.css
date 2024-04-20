@@ -18,5 +18,5 @@ body{
   opacity: .03;
   z-index: 1500;
   pointer-events: none;
-  background: url(./Assets/noise.gif);
+  background: url(../public/Assets/noise.gif);
 }
