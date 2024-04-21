@@ -37,3 +37,43 @@
     }
     
 }
+
+@media(max-width:1300px){
+    .get-in-touch h1{
+        font-size: 70px;
+    }
+
+    .get-in-touch img{
+        width: 200px;
+        margin-top: -150px;
+        opacity:0.2;
+        
+    }
+
+    .get-in-touch p{
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 10px;
+        font-family: "Inter";
+        text-align: center;
+    }
+}
+
+@media(max-width:500px){
+    .get-in-touch h1{
+        font-size: 50px
+    }
+
+    .get-in-touch p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .get-in-touch{
+        height: 400px;
+    }
+
+    .get-in-touch img{
+        margin-top: -90px;
+    }
+}
