@@ -40,6 +40,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <Router>
         <div className="noise"></div>
         <div className="App">
+          <ScrollToTop/>
           <Switch>
             <Route path='/' exact>
               <Home />

@@ -99,7 +99,7 @@
     animation: animation-reel 60s infinite linear;
 }
 
-.footer-ticker- {}
+/* .footer-ticker- {} */
 
 @keyframes animation-reel {
     from {
@@ -118,4 +118,49 @@
     font-size: 15px;
     text-transform: uppercase;
 
+}
+
+@media(max-width:900px){
+    .footer{
+        height: 70px;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .message-for-users span{ 
+        display: none;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-footer-bottom{
+        margin-left: 0px;
+    }
+
+    .right-footer-bottom{
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:400px){
+    .footer{
+        height: 850px;
+    }
+
+    .left-footer-bottom{
+        margin-left: 0px;
+        font-size: 120px;
+    }
+
+    .right-footer-bottom p{
+        margin-right: 0px;
+        font-size: 12px;
+    }
 }
