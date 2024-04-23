@@ -4,19 +4,22 @@ import './Projects.css'
 import arrow from '../../Assets/arrow.svg'
 import GetInTouch from '../GetInTouch/GetInTouch'
 import Footer from '../Footer/Footer'
+
+
+
 function Projects() {
     return (
         <div>
             <Header />
             <div className="project-page">
                 <div className="my-projects">
-                    <h1>
+                    <h1 >
                         my <br />
                         projects
                     </h1>
                 </div>
                 <div className="project-page-container">
-                    <div className="project-page-items">
+                    <div className="project-page-items" >
                         <div className="project-page-item">
                             <div className="project-page-item-number">
                                 <p>01/06</p>

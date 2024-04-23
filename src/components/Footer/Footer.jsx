@@ -28,8 +28,8 @@ function Footer() {
                         </div>
                         <div className="social-links-items">
                             <a href="mailto:alioth840@gmail.com">Mail</a>
-                            <a href="#">Whatsapp</a>
-                            <a href="#">+92 302 4606680</a>
+                            <span >Whatsapp</span>
+                            <span>+92 302 4606680</span>
                         </div>
                     </div>
                     <div className="footer-menu social-links">
@@ -44,7 +44,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="footer-btn">
-                        <a href="" className='footer-btn-a'>Get Started!</a>
+                        <span className='footer-btn-a'>Get Started!</span>
                     </div>
                 </div>
                 <div className="footer-bottom">

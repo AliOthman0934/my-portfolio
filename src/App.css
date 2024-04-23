@@ -28,3 +28,86 @@ body{
 ::-webkit-scrollbar{
   display: none;
 }
+
+.cursor-follower{
+  position: absolute;
+  background: url(./Assets/asterik.svg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 10%;
+  width: 6%;
+  animation: animate-rotate 10s infinite linear;
+  z-index: 1;
+  user-select: none;
+  opacity: 0.6;
+  mix-blend-mode: multiply;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translate(35px , 35px);
+}
+
+@keyframes  animate-rotate{
+  from{
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
+
+@media(max-width:768px){
+  .cursor-follower{
+    display: none;
+  }
+}
+
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1200;
+  background-color: #e9dbd4;
+}
+
+.progress{
+  position: absolute;
+  bottom: 0%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.percent{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 200px;
+  font-family: "Ogg";
+}
+
+.bar{
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin-top: 90px;
+}
+
+.barc{
+  margin: 0;
+  padding: 0;
+  width: 1%;
+  padding: 1px 0px;
+  background-color: black;
+}
