@@ -163,26 +163,26 @@ function Home() {
         <Header/>
         <div className="container">
             <div className="container1">
-                <div className="txt-line" id='taimoor'>
+                <div className="txt-line" id='ali'>
                     <p >Ali</p>
                 </div>
-                <div className="txt-line line-bottom" id="shahzada">
+                <div className="txt-line line-bottom" id="othman">
                     <p >Othman</p>
                 </div>
             </div>
             <div></div>
         </div>
         <div className="left-side-quote">
-            <p>I create didgital experiences that merge art <br /> direction, branding, creative strategy, web <br /> design, prototyping, and digital interactions.</p>
+            <p>I specialize in full-stack web development, <br /> creating dynamic digital experiences that encompass both front-end <br /> and back-end technologies.</p>
         </div>
         <div className="container">
             <div></div>
             <div className="container1">
                 <div className="txt-line" id="digital">
-                    <p>Digital</p>
+                    <p>Web</p>
                 </div>
                 <div className="txt-line line-bottom" id="designer">
-                    <p >Designer</p>
+                    <p >Developer</p>
                 </div>
             </div>
         </div>
@@ -253,8 +253,13 @@ function Home() {
                     <p>___</p>
                 </div>
                 <div className="skill-set-box">
-                    <h1 className="skill-set-box-h1">Three.js</h1>
-                    <p className="skill-set-box-p">This library deals and simplifies the working with webgl and glsl</p>
+                    <h1 className="skill-set-box-h1">MySQL</h1>
+                    <p className="skill-set-box-p">I used for storing, managing, and retrieving data in web applications.</p>
+                    <p>___</p>
+                </div>
+                <div className="skill-set-box">
+                    <h1 className="skill-set-box-h1">MongoDB</h1>
+                    <p className="skill-set-box-p">I used for storing, retrieving, and managing structured and unstructured data.</p>
                     <p>___</p>
                 </div>
                 <div className="skill-set-box">
@@ -269,14 +274,20 @@ function Home() {
                 </div>
 
                 <div className="skill-set-box">
-                    <h1 className="skill-set-box-h1">Photoshop</h1>
-                    <p className="skill-set-box-p">Use to edit photos or prototype any website design</p>
+                    <h1 className="skill-set-box-h1">Figma</h1>
+                    <p className="skill-set-box-p">Use to create  werifram for any website design</p>
                     <p>___</p>
                 </div>
 
                 <div className="skill-set-box">
                     <h1 className="skill-set-box-h1">Illustrator</h1>
                     <p className="skill-set-box-p">I use to make creative svgs and illustrations for website</p>
+                    <p>___</p>
+                </div>
+
+                <div className="skill-set-box">
+                    <h1 className="skill-set-box-h1">GitHub</h1>
+                    <p className="skill-set-box-p">I used for version control and collaboration in software development projects.</p>
                     <p>___</p>
                 </div>
             </div>

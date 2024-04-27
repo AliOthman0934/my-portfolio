@@ -16,8 +16,16 @@ container-text{
 .container-text p {
     overflow: hidden;
 }
-.container-inner-text2{
-    margin-top: -520px;
+.container-inner-text2,.container-inner-text1{
+    /* margin-top: -520px; */
+    margin-top: -150px;
+    font-size: 140px;
+    text-transform: capitalize;
+    letter-spacing: -10px;
+    font-family: 'Ogg';
+    overflow: hidden;
+    height: 100%;
+    line-height: 90%;
 }
 .container-quote{
     position: absolute;
@@ -88,6 +96,10 @@ container-text{
 }
 .about-container2-p-right{
     text-align: right;
+}
+
+.about-text-lower p{
+    font-size: 130px;
 }
 .about-container-flower{
     position: absolute;
