@@ -10,11 +10,11 @@ function Header() {
     let text2 = useRef();
     let text3 = useRef();
     let text4 = useRef();
-    let text5 = useRef();
+
 
     useEffect(()=>{
         const tl = gsap.timeline();
-        tl.from([text1.current , text2.current , text3.current , text4.current , text5.current],{
+        tl.from([text1.current , text2.current , text3.current , text4.current ],{
             duration:3,
             y:20,
             delay:2,
@@ -42,9 +42,6 @@ function Header() {
                     </li>
                     <li ref={text4}>
                         <Link to={"/contact"} className="Li">Contact</Link>
-                    </li>
-                    <li ref={text5}>
-                        <Link to={""} className="Li">Youtube</Link>
                     </li>
                 </ul>
             </header>

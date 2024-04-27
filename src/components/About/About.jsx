@@ -17,12 +17,12 @@ function About() {
                         <div className="container-text">
                             <div className="container-inner-text1">
                                 <p >
-                                    Ali
+                                    
                                 </p>
                             </div>
                             <div className="container-inner-text2">
                                 <p >
-                                    Othman
+                                    
                                 </p>
                             </div>
                         </div>
@@ -40,21 +40,19 @@ function About() {
                                 <p>Web Designer,</p>
                             </div>
                             <div className="about-text-lower">
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Front-End</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full stack</p>
                             </div>
                             <div className="about-text-lower">
                                 <p>&nbsp;Developer&nbsp;&nbsp;&nbsp; &</p>
                             </div>
                             <div className="about-text-lower">
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp; a Youtuber</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp; an Architect</p>
                             </div>
                         </div>
                         <div className="about-container2-p">
                             <p>Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet, <br /> consectetur adipisicing elit. Sed, cum?</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae architecto minima odio, incidunt qui?</p>
-                            <p className="about-container2-p-right">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt, <br /> ipsam laborum rerum fugiat dolore natus unde odio placeat quia.
-                            </p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt, <br /> ipsam laborum rerum fugiat dolore natus unde odio placeat quia.</p>
                             <p>Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ipsam.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, cupiditate!</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, dolorum. <br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, nemo!</p>
